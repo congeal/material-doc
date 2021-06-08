@@ -4,7 +4,7 @@
   font-feature-settings: 'liga';
 }
 
-$font-mdi   : 'Material-Design-Icons';
+$font-mdi   : 'materialdesignicons-webfont';
 $mdi-prefix : 'mdi-';
 
 @font-face {
@@ -12,8 +12,7 @@ $mdi-prefix : 'mdi-';
     src:url("#{$icons-font-path}#{$font-mdi}.eot?#iefix") format("embedded-opentype"),
         url("#{$icons-font-path}#{$font-mdi}.woff2") format("woff2"),
         url("#{$icons-font-path}#{$font-mdi}.woff") format("woff"),
-        url("#{$icons-font-path}#{$font-mdi}.ttf") format("truetype"),
-        url("#{$icons-font-path}#{$font-mdi}.svg##{$font-mdi}") format("svg");
+        url("#{$icons-font-path}#{$font-mdi}.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
@@ -21,7 +20,7 @@ $mdi-prefix : 'mdi-';
 [class^="mdi-"], [class*="mdi-"] {
     speak: none;
     display: inline-block;
-    font-family: "Material-Design-Icons";
+    font-family: "#{$font-mdi}";
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
