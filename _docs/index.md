@@ -21,6 +21,23 @@ Key features of this template:
 
 For how to use this template, read next doc.
 
+Unordered list
+* First
+    * Nested 1
+* Second
+* Third
+
+Ordered list
+1. First
+    1. Nested 1
+        1. Nested 1
+        1. Nested 1
+    1. Nested 2
+        * Unordered
+1. Second
+    * Unordered
+1. Third
+
 [jekyll-doc]: http://jekyllrb.com/docs/home/
 [materizlize]: http://materializecss.com/
 [github-pages]: https://pages.github.com/

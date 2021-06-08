@@ -82,3 +82,17 @@ i.fa.left, i.fa.right {
 .table-of-contents {
   margin-top: 3em;
 }
+
+.browser-default-uls {
+  ul {
+    padding-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    li {
+      list-style-type: disc!important;
+      ul {
+        li {list-style-type: circle!important;}
+      }
+    }
+  }
+}
