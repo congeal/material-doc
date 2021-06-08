@@ -38,6 +38,24 @@ Ordered list
     * Unordered
 1. Third
 
+### Code highlight
+```verilog
+module assign_test #(
+    parameter W_DATA = 4
+)
+(   input clk, resetn,
+    input [W_DATA-1:0] i_data,
+    output reg [W_DATA-1:0] o_data
+);
+    // comment
+    always_ff @(posedge clk or negedge resetn)
+        if(!resetn)
+            o_data <= '0;
+        else
+            o_data <= i_data;
+endmodule
+```
+
 [jekyll-doc]: http://jekyllrb.com/docs/home/
 [materizlize]: http://materializecss.com/
 [github-pages]: https://pages.github.com/
