@@ -19,7 +19,7 @@ Key features of this template:
 3. Fully support Markdown files, to make it easy to write new docs & pages.
 4. Cool technologies like SASS, Markdown, icon font, etc, to make the site work in future.
 
-For how to use this template, read next doc.
+For how to use this template, read next doc. <i class="mdi mdi-github"></i>
 
 Unordered list
 * First

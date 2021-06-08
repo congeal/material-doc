@@ -20,7 +20,7 @@ $secondary-color: {{ site.palette.secondary }};
 
 // components
 @import "components/global";
-@import "components/icons-material-design";
+// @import "components/icons-material-design";
 @import "components/grid";
 @import "components/navbar";
 @import "components/roboto";
